@@ -1,70 +1,120 @@
-# 📦 EthioRX Online Pharmacy
 
-![EthioRx](https://github.com/EthioRX/EthioRX.github.io/blob/02dfadaab92eb913eea208a353405828e28bce8f/resources/images/logos/EthioRX.png)
+<div align="center">
+  <a href="https://saikyo0.github.io/ethiorx">
+    <img src="./resources/images/logos/EthioRX.png" alt="EthioRX Logo" height="80px" width="auto"/>
+  </a>
+  <h2>EthioRX</h2>
+  <p align="center">
+    <p>Premier Platform for Accessing Medications in Ethiopia</p>
+  </p>
+</div>
 
-Welcome to **EthioRX Online Pharmacy**, the premier platform for accessing prescription and over-the-counter medications with ease and speed throughout Ethiopia. 🇪🇹
+<div align="center">
+  <a href="https://saikyo0.github.io/ethiorx">Live Demo</a>
+</div>
 
-## 🔍 Overview
+## EthioRX
 
-**EthioRX** is committed to transforming the way medications are accessed and delivered. Founded by **PharmaTeam** and operated by **EthioRX Ltd.**, our platform leverages cutting-edge technology and strategic partnerships to offer a seamless, user-friendly experience for ordering medications online.
+Welcome to EthioRX Online Pharmacy, the premier platform for accessing prescription and over-the-counter medications with ease and speed throughout Ethiopia. 🇪🇹
 
-## 🚀 Key Features
+### Motivation
 
-### 🛒 Easy and Efficient Ordering
+In Ethiopia, accessing medications quickly and securely can be a challenge. EthioRX aims to bridge that gap, providing a streamlined way for customers across the country to order medications from the comfort of their homes. With cutting-edge technology and a vast network of trusted partners, we're transforming how healthcare products are delivered.
 
-- **User-Friendly Interface**: Navigate our intuitive platform to find and order medications in just a few clicks.
-- **Up-to-Date Inventory**: Access a comprehensive list of available medications, ensuring you find exactly what you need.
+### Key Features
 
-### 🚚 Comprehensive Delivery Services
+- **User-Friendly Interface**: Easily navigate and find the medications you need with our intuitive platform.
+- **Real-Time Tracking**: Track your orders from start to finish with up-to-date delivery information.
+- **Nationwide Delivery**: We deliver to both urban and rural areas across Ethiopia, ensuring that no one is left behind.
+- **Multilingual Support**: Our platform is available in English, Amharic, and Oromiffa, with dedicated customer support in multiple languages.
+- **Secure Payments**: Enjoy safe and encrypted payment options for your transactions.
 
-- **Nationwide Reach**: Our delivery network spans across Ethiopia, providing reliable service to urban and rural areas.
-- **Optimized Delivery Schedule**: Our system adjusts for traffic conditions and personal scheduling preferences to ensure timely delivery.
+<details open>
 
-### 🔔 Real-Time Notifications
+<summary>More</summary>
+  <img src="./readme/pic1.png"/>
+  <img src="./readme/pic5.png"/>
+  <img src="./readme/pic2.png"/>
+  <img src="./readme/pic4.png"/>
+</details>
 
-- **Order Updates**: Receive notifications at every stage of the ordering process, from confirmation to delivery.
-- **Tracking System**: Monitor the status of your order in real-time via our tracking feature, ensuring peace of mind.
+### Under the Hood
 
-### 🌍 Multilingual Support
+- [**HTML**](): A fast and lightweight build tool designed to streamline development for modern web projects.
+- [**CSS**](): A powerful JavaScript library for building interactive user interfaces, ensuring a smooth and responsive web experience.
+- [**JS**](): A React-based framework that supports server-side rendering and static site generation, optimizing both performance and SEO.
 
-- **Language Options**: We offer customer support in English, Amharic, and Oromiffa to cater to diverse linguistic needs.
-- **Accessible Support**: Our support page provides detailed guidance on order steps and frequently asked questions.
+### Payments
 
-## 🛫 Getting Started
+<details open>
+<summary>More</summary>
+  <img src="./resources/images/logos/telebirr.png"  height="80px" width="auto"/> <br />  
+  <img src="./resources/images/logos/mpesa.svg"/>
+</details>
 
-### 1. Account Creation
+## Production Setup
 
-Visit our website and create an account to gain access to our full range of services. This account will allow you to manage orders, track deliveries, and access customer support.
+### Managed Hosting
 
-### 2. Browsing and Ordering
+You can try [Vercel](https://vercel.com), a simple, user-friendly, and sophisticated platform to host your Next.js applications with ease.
 
-Explore the "Shop" section to browse our extensive catalog of medications. Once you find the desired product, add it to your cart and proceed to checkout. Our secure payment system ensures your transaction is safe and confidential.
+It takes care of deployment, scaling, and performance optimization, allowing you to focus on building your application.
 
-### 3. Tracking and Delivery
+<div>
+  <a href="https://vercel.com" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://vercel.com/logo-dark.png">
+      <img src="https://vercel.com/logo-light.png" alt="Deploy on Vercel" height="28" />
+    </picture>
+  </a>
+</div>
 
-After placing your order, you will receive email notifications and can track your order's progress. With our efficient delivery system, your medications will arrive at your specified location promptly.
+### Self-Hosted
+#### Docker
 
+Prerequisites: docker, docker-compose, git. Refer to [Docker Documentation](https://docs.docker.com) for more details on Docker setup.
 
-#### [Perscription Drugs]
+Run the following commands:
 
-When buying drugs that arent over the counter, you need to recieve a one time 12 character alphanumeric code from your liscenced healthcare provider that works in one of our trusted parteners.
+```bash
+git clone https://github.com/saikyo0/ethiorx
+cd ethiorx
+docker-compose up -d
+```
 
-## 🤝 Our Trusted Partners
+After a couple of minutes, the site should be accessible on your localhost port: 3000.
 
-EthioRX collaborates with a network of reputable medical facilities and pharmacies to ensure that all prescriptions are fulfilled according to best practices. This collaboration guarantees that you receive authentic and safe medications.
+## Development Setup
 
-## 📞 Contact and Support
+### Manual Install
 
-For any inquiries or support, reach out to us through the following channels:
+To set up the repository locally, follow the steps mentioned below:
 
-- Phone: +25191234567
-- Email: support@ethiorx.com
-- Address: Addis Ababa, Ethiopia
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/saikyo0/ethiorx
+   cd ethiorx
+   ```
 
-For more information, visit our [Support Page](https://ethiorx.github.io/pages/support.html).
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-[EthioRX Partners](https://ethiorx.github.io/)
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-*EthioRX ® was founded by PharmaTeam and is hosted by EthioRX Ltd. EthioRX Ltd. is a registered company in Ethiopia & East Africa with number: +25191234567, registered address: Addis Ababa.*
+4. Open the URL `http://localhost:3000` in your browser, and you should see the application running.
 
-*Recognized by MOH Ethiopia*
+<br />
+<br />
+<div align="center" style="padding-top: 0.75rem;">
+  <a href="https://your-website.com" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./resources/images/logos/EthioRX.png">
+      <img src="./resources/images/logos/EthioRX.png" alt="EthioRX" height="28"/>
+    </picture>
+  </a>
+</div>
