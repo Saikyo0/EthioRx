@@ -1,0 +1,128 @@
+.top-title{
+    display: flex;
+    color: white;
+    padding: 100px;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-div{
+    display: flex;
+    padding: 50px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.profile-container {
+    display: flex;
+    max-width: 800px;
+    width: 100vw;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img{
+    display: flex;
+    background-color: #3a4e55;
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40%;
+    height: 40%;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.profile-details, .drug-history {
+    margin-bottom: 30px;
+}
+
+.profile-details h2, .drug-history h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.detail-item {
+    margin-bottom: 10px;
+}
+
+.detail-item strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.edit-profile-btn, .change-password-btn {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-profile-btn {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.change-password-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.history-table th, .history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.history-table th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,179 @@
+main{
+    padding-top: 70px;
+}
+
+#clear-cart{
+    display: flex;
+    font-size: 18px;
+    width: 30vw;
+    max-width: 100px;
+    height: 11vw;
+    max-height: 50px;
+    z-index: 99;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+#clear-cart:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+th, td{
+    border: 1px dotted;
+    padding: 10px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.cart-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+    width: 100%;
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.cart-top h1{
+    color: rgb(255 255 255);
+    font-size: clamp(1rem, 1vw + 2rem, 3rem);
+    margin-bottom: 65px;
+}
+
+.cart-grid{
+    display: flex;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.cart-grid h1{
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 4rem;
+}
+
+.cart-pay {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+}
+
+.cart-products{
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+
+.drugInfo img {
+    width: 100px;
+}
+
+.purchase-confirmation .prescription{
+    font-size: 1rem;
+}
+
+.purchase-confirmation {
+    margin-top: 2rem;
+    background-color: #fff;
+    border: 0.8px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.city-select {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+  
+.city-select select {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.city-select select:focus {
+    outline: none;
+    border-color: royalblue;
+    box-shadow: 0 0 5px royalblue;
+}
+
+.purchase-group {
+    margin-bottom: 1rem;
+}
+
+.purchase-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.location-select {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-select button {
+    display: flex;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 45px;
+}
+
+.location-select input {
+    flex-grow: 1;
+}
+
+.gps-marker{
+    width: 8vw;
+    max-width: 22px;
+}
+
+.purchase-group input,
+.purchase-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#payment-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
